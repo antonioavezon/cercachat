@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="recibidos" path="recibidos/" />
+    <files-path name="conservados" path="conservados/" />
+    <cache-path name="exportacion" path="export/" />
+</paths>

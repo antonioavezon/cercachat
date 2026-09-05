@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CercaChat</string>
+    <string name="notification_channel_session">Sesión CercaChat</string>
+    <string name="notification_session_title">CercaChat en curso</string>
+    <string name="notification_session_text">Conversación local activa. La conexión no usa internet.</string>
+    <string name="notification_close">Cerrar conversación</string>
+    <string name="notification_channel_messages">Mensajes recibidos</string>
+</resources>

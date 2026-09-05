@@ -1,0 +1,24 @@
+---
+description: Nunca añadir Co-authored-by de Cursor en commits ni mensajes
+alwaysApply: true
+---
+
+# Nunca acreditar a Cursor como coautor
+
+En **cualquier** commit, amend, tag, release o PR de este proyecto y de cualquier otro uso de Cursor:
+
+- **Prohibido** añadir `Co-authored-by: Cursor <cursoragent@cursor.com>`.
+- **Prohibido** cualquier `Co-authored-by` de Cursor, Cursor Agent o `cursoragent@cursor.com`.
+- El mensaje solo debe incluir autoría humana.
+
+```
+# MAL
+Publicar CercaChat 1.0.0
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+
+# BIEN
+Publicar CercaChat 1.0.0
+```
+
+Si aparece esa línea, elimínala antes de confirmar. No uses `--no-verify` salvo petición explícita.
